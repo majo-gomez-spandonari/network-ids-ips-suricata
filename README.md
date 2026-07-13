@@ -254,6 +254,3 @@ incident-investigation workflow, not just live monitoring
 - Integrated a production-scale community ruleset (Emerging Threats,
 ~50K active rules) alongside custom detection logic
 
-## Additional files in this repo
-- `pcaps/` -DNS query capture used offline analysis
- 
