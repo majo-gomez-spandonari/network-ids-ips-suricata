@@ -1,0 +1,5 @@
+# Detección de paquetes ICMP
+alert icmp any any -> any any (msg:"Paquete ICMP encontrado"; sid:1; rev:1;)
+
+# Detección de conexiones a Facebook
+alert tcp any any -> any any (msg:"Facebook detectado"; content:"facebook"; sid:2; rev:1;)
